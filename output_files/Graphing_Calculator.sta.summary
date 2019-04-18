@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Control:c|current_state.S_LOAD_A'
+Slack : -31.994
+TNS   : -41.754
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -29.741
+TNS   : -1251.982
+
+Type  : Slow 1200mV 85C Model Setup 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : -2.156
+TNS   : -23.572
+
+Type  : Slow 1200mV 85C Model Setup 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : -2.088
+TNS   : -33.105
+
+Type  : Slow 1200mV 85C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 30.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Control:c|current_state.S_LOAD_A'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 1.221
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_A'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.548
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'Control:c|current_state.S_LOAD_A'
+Slack : -29.267
+TNS   : -38.101
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -27.080
+TNS   : -1119.706
+
+Type  : Slow 1200mV 0C Model Setup 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : -2.051
+TNS   : -32.074
+
+Type  : Slow 1200mV 0C Model Setup 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : -1.934
+TNS   : -21.266
+
+Type  : Slow 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 31.083
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Control:c|current_state.S_LOAD_A'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 1.120
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_A'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.558
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.709
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'Control:c|current_state.S_LOAD_A'
+Slack : -15.059
+TNS   : -15.140
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -13.980
+TNS   : -521.320
+
+Type  : Fast 1200mV 0C Model Setup 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : -0.692
+TNS   : -9.807
+
+Type  : Fast 1200mV 0C Model Setup 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : -0.616
+TNS   : -6.056
+
+Type  : Fast 1200mV 0C Model Setup 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 34.913
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Control:c|current_state.S_LOAD_A'
+Slack : -0.058
+TNS   : -0.086
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 0.514
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_A'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Init:i|current_state.S_CLEARING_SCREEN'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Control:c|current_state.S_LOAD_DEGREE'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA|mypll|altpll_component|pll|clk[0]'
+Slack : 19.754
+TNS   : 0.000
+
+------------------------------------------------------------

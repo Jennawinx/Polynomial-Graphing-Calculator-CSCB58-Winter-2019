@@ -1,0 +1,43 @@
+
+State Machine - |Graphing_Calculator|Input_Display:display|Binary_To_BCD:b|r_SM_Main
+Name r_SM_Main.s_BCD_DONE r_SM_Main.s_CHECK_DIGIT_INDEX r_SM_Main.s_ADD r_SM_Main.s_CHECK_SHIFT_INDEX r_SM_Main.s_SHIFT r_SM_Main.s_IDLE 
+r_SM_Main.s_IDLE 0 0 0 0 0 0 
+r_SM_Main.s_SHIFT 0 0 0 0 1 1 
+r_SM_Main.s_CHECK_SHIFT_INDEX 0 0 0 1 0 1 
+r_SM_Main.s_ADD 0 0 1 0 0 1 
+r_SM_Main.s_CHECK_DIGIT_INDEX 0 1 0 0 0 1 
+r_SM_Main.s_BCD_DONE 1 0 0 0 0 1 
+
+State Machine - |Graphing_Calculator|Control:c|current_state
+Name current_state.S_PLOT_FINISHED current_state.S_PLOT current_state.S_LOAD_S_WAIT current_state.S_LOAD_S current_state.S_LOAD_N_WAIT current_state.S_LOAD_N current_state.S_LOAD_E_WAIT current_state.S_LOAD_E current_state.S_LOAD_D_WAIT current_state.S_LOAD_D current_state.S_LOAD_C_WAIT current_state.S_LOAD_C current_state.S_LOAD_B_WAIT current_state.S_LOAD_B current_state.S_LOAD_A_WAIT current_state.S_LOAD_A current_state.S_LOAD_DEGREE_WAIT current_state.S_LOAD_DEGREE current_state.S_INITIALIZATION 
+current_state.S_INITIALIZATION 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.S_LOAD_DEGREE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.S_LOAD_DEGREE_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.S_LOAD_A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.S_LOAD_A_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.S_LOAD_B 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.S_LOAD_B_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.S_LOAD_C 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.S_LOAD_C_WAIT 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_D 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_D_WAIT 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_E 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_E_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_N 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_N_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_S 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_LOAD_S_WAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_PLOT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.S_PLOT_FINISHED 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Graphing_Calculator|Init:i|current_state
+Name current_state.S_FINISHED current_state.S_DRAW_Y_AXIS current_state.S_DRAW_X_TICKS_FINISHED current_state.S_DRAW_X_TICKS current_state.S_DRAW_X_AXIS_FINISHED current_state.S_DRAW_X_AXIS current_state.S_CLEARING_SCREEN_FINISHED current_state.S_CLEARING_SCREEN current_state.S_WAITING 
+current_state.S_WAITING 0 0 0 0 0 0 0 0 0 
+current_state.S_CLEARING_SCREEN 0 0 0 0 0 0 0 1 1 
+current_state.S_CLEARING_SCREEN_FINISHED 0 0 0 0 0 0 1 0 1 
+current_state.S_DRAW_X_AXIS 0 0 0 0 0 1 0 0 1 
+current_state.S_DRAW_X_AXIS_FINISHED 0 0 0 0 1 0 0 0 1 
+current_state.S_DRAW_X_TICKS 0 0 0 1 0 0 0 0 1 
+current_state.S_DRAW_X_TICKS_FINISHED 0 0 1 0 0 0 0 0 1 
+current_state.S_DRAW_Y_AXIS 0 1 0 0 0 0 0 0 1 
+current_state.S_FINISHED 1 0 0 0 0 0 0 0 1 

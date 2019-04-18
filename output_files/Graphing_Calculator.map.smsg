@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at Input_Display.v(47): always construct contains both blocking and non-blocking assignments File: C:/Users/Jenny Quach/Documents/Graphing_Calculator_Final/Input_Display.v Line: 47
+Warning (10268): Verilog HDL information at Function_Generator.v(79): always construct contains both blocking and non-blocking assignments File: C:/Users/Jenny Quach/Documents/Graphing_Calculator_Final/Function_Generator.v Line: 79

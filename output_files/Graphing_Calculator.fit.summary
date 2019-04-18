@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Apr 18 15:42:42 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Graphing_Calculator
+Top-level Entity Name : Graphing_Calculator
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 1,074 / 114,480 ( < 1 % )
+    Total combinational functions : 1,035 / 114,480 ( < 1 % )
+    Dedicated logic registers : 250 / 114,480 ( < 1 % )
+Total registers : 282
+Total pins : 140 / 529 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 460,800 / 3,981,312 ( 12 % )
+Embedded Multiplier 9-bit elements : 10 / 532 ( 2 % )
+Total PLLs : 1 / 4 ( 25 % )

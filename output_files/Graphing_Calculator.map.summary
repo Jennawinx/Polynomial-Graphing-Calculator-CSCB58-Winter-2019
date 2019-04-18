@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 18 15:42:01 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Graphing_Calculator
+Top-level Entity Name : Graphing_Calculator
+Family : Cyclone IV E
+Total logic elements : 1,085
+    Total combinational functions : 1,035
+    Dedicated logic registers : 282
+Total registers : 282
+Total pins : 140
+Total virtual pins : 0
+Total memory bits : 460,800
+Embedded Multiplier 9-bit elements : 10
+Total PLLs : 1
