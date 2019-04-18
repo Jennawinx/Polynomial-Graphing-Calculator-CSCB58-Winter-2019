@@ -22,7 +22,7 @@ Watch live demo here: [https://youtu.be/HUC2An-jvmg](https://youtu.be/HUC2An-jvm
 ---
 ---
 
-## Description of Structure of Graphing Calculator
+## Structure of Graphing Calculator
 
 Our program consists of a top level module, an input display module, master control and datapath that contains 4 modules responsible for the functionality of the program.  First we will describe the datapath, then the functionality of the control.
 
@@ -36,10 +36,7 @@ This module is responsible for calculating the y values based on the function gi
 
 In addition to storing the constants, this function takes in reset, clock, calculate and the x_value it needs to calculate.  The reset clears all the registers, but otherwise this function is continuously computing a 32 bit y value based on the degree passed in through the calculate input. The function is chosen using a case statement, and then the y_value is shifted n bits based on the compression factor and translated up by the constant e.  Finally, the y_value is translated to a coordinate on the screen by subtracting it from 120 and taking only the last 8 bits.
 
-Finally, the function generator is also responsible for checking that
-the y_val is not out of screen bounds by checking that the full 32 bit
-value is within screen bounds.  Otherwise, it outputs a out_of_bounds signal
-that tells the control to turn plot off while y is out of bounds.
+Finally, the function generator is also responsible for checking that the y_val is not out of screen bounds by checking that the full 32 bit value is within screen bounds.  Otherwise, it outputs a out_of_bounds signal that tells the control to turn plot off while y is out of bounds.
 
 **VGA Input Selector:**
 
